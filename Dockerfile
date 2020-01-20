@@ -1,6 +1,6 @@
 ### STAGE 1: Build ###
 
-FROM docker-dev.artifactory.tools.roku.com/devops/alpine-node:3.9-10.15.3 AS build
+FROM node:10-alpine AS build
 
 
 WORKDIR /usr/src/app

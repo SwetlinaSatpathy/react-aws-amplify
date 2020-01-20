@@ -15,4 +15,4 @@ COPY . /usr/src/app
 RUN npm run build
 EXPOSE 8080
 
-CMD ["npm","run","prod"]
+CMD ["npm","start"]
